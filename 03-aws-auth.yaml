@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   mapRoles: |
-    - rolearn: arn:aws:iam::196061557907:role/eksctl-roboshop-dev-nodegroup-robo-NodeInstanceRole-Dwhj2aPEVmfa
+    - rolearn: arn:aws:iam::196061557907:role/eksctl-roboshop-dev-nodegroup-robo-NodeInstanceRole-lIlR50GGojGx
       groups:
       - system:bootstrappers
       - system:nodes
@@ -17,4 +17,4 @@ metadata:
   name: aws-auth
   namespace: kube-system
   resourceVersion: "1309"
-  uid: 6ddfdcc4-6843-42b9-aceb-ad0990c342e5
+  uid: 7dbf07f1-b62e-4109-bd0d-eb615ddaf625
